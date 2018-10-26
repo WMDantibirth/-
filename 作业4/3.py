@@ -22,7 +22,7 @@ def fun(k):  # k is a list
     return L
 
 
-def time_in(L):     # the longest time that have at least one person working
+def time_in(L):     # the longest time that has at least one person working
     n = []
     for i in L:
         n.append(i[1]-i[0])
